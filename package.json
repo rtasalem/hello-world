@@ -1,7 +1,7 @@
 {
-  "name": "template-node-express-backend",
+  "name": "hello-world",
   "version": "0.1.0",
-  "description": "Template for a Node.js microservice utilising an Express.js server.",
+  "description": "Experiment repo for building a deployment pipeline, working with Docker, Kubernetes etc.",
   "main": "app/index.js",
   "type": "module",
   "scripts": {

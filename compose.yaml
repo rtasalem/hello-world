@@ -1,12 +1,12 @@
 services:
-  template-node-express-backend:
+  hello-world:
     build: 
       context: .
       target: development
-    image: template-node-express-backend
-    container_name: template-node-express-backend
+    image: hello-world
+    container_name: hello-world
     ports:
-      - "3000:3000"
+      - "3008:3008"
     volumes:
       - ./app:/home/node/app
       - ./package.json:/home/node/package.json
