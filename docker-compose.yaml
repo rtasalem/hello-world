@@ -1,0 +1,12 @@
+services:
+  template-node-express-backend:
+    build: 
+      context: .
+      target: development
+    image: template-node-express-backend
+    container_name: template-node-express-backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/home/node/app
+      - ./package.json:/home/node/package.json

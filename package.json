@@ -1,0 +1,28 @@
+{
+  "name": "template-node-express-backend",
+  "version": "0.1.0",
+  "description": "Template for a Node.js microservice utilising an Express.js server.",
+  "main": "app/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon --inspect=0.0.0.0 --ext css,js,njk --legacy-watch app/index.js",
+    "lint:check": "standard --check",
+    "lint:fix": "standard --fix",
+    "git:pre-push-hook": "npm lint && npm test",
+    "postinstall": "npm run setup:husky",
+    "setup:husky": "husky install"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "dependencies": {
+    "convict": "6.2.4",
+    "convict-format-with-validator": "6.2.0",
+    "express": "4.21.2"
+  },
+  "devDependencies": {
+    "husky": "9.1.7",
+    "nodemon": "3.1.4",
+    "standard": "17.1.0"
+  }
+}

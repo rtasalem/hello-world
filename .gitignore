@@ -1,0 +1,6 @@
+.DS_Store
+.env
+node_modules
+.secrets.baseline
+test-output
+.vscode

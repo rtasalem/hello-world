@@ -1,0 +1,9 @@
+node_modules
+Dockerfile
+.dockerignore
+docs
+docker-compose*
+.secrets.baseline
+README.md 
+.vscode
+.gitignore
