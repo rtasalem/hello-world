@@ -1,4 +1,4 @@
-ARG PORT=3000
+ARG PORT=3008
 
 # Development
 FROM node:lts AS development

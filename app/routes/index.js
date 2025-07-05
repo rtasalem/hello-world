@@ -1,5 +1,7 @@
 import health from './health.js'
+import home from './home.js'
 
 export {
-  health
+  health,
+  home
 }

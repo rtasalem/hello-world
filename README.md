@@ -1,4 +1,4 @@
-# template-node-express-backend
+# hello-world
 GitHub repository template for backend Node.js applications.
 
 ## Features
